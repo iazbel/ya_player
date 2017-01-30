@@ -48,7 +48,7 @@ class SystemTrayIcon(QtGui.QSystemTrayIcon):
       self.remoteCall('next')
 
     def play(self):
-      self.remoteCall('playpause')
+      self.remoteCall('togglePause')
 
     def like(self):
       self.remoteCall('like')
