@@ -53,9 +53,6 @@ class SystemTrayIcon(QtGui.QSystemTrayIcon):
     def like(self):
       self.remoteCall('like')
 
-    def download(self):
-      self.remoteCall('download')
-
     def text(self):
       self.remoteCall('getCurrent')
 
